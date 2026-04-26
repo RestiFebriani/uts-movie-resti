@@ -23,23 +23,23 @@ Jika Anda baru saja meng-clone repository proyek Laravel dan ingin menjalankan p
 4. **Set Database Connection:**
    Pastikan bahwa pengaturan koneksi database di file `.env` sesuai dengan konfigurasi database Anda.
 
-   Contoh: Jika Anda membuat database dbmovie, maka di file `.env` ubahlah `DB_DATABASE=laravel` menjadi `DB_DATABASE=dbmovie`
+    Contoh: Jika Anda membuat database dbmovie, maka di file `.env` ubahlah `DB_DATABASE=laravel` menjadi `DB_DATABASE=dbmovie`
 
-6. **Run Migrations:**
+5. **Run Migrations:**
    Sekarang Anda dapat menjalankan perintah migrasi untuk membuat tabel-tabel database:
 
     php artisan migrate
 
     Perintah ini akan mengeksekusi semua migrasi yang terkandung di proyek Laravel ini.
 
-7. **Run Seeds (Opsional):**
+6. **Run Seeds (Opsional):**
    Proyek ini menggunakan _seeding_ untuk mengisi basis data awal, jalankan perintah berikut:
 
     php artisan db:seed
 
     Perintah ini akan menjalankan seeder yang telah didefinisikan.
 
-8. **Serve Aplikasi:**
+7. **Serve Aplikasi:**
    Setelah langkah-langkah di atas selesai, Anda dapat menjalankan server pengembangan Laravel untuk melihat proyek Anda:
 
     php artisan serve
